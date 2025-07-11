@@ -1,4 +1,4 @@
-# Projeto Engenharia de Dados - SiCooperative LTDA
+# Projeto Engenharia de Dados
 
 ## Estrutura de Pastas
 
