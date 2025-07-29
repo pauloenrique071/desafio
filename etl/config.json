@@ -1,0 +1,11 @@
+{
+  "db_config": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "user",
+    "password": "password",
+    "database": "desafio"
+  },
+  "query": "SELECT a.id AS associado_id, a.nome AS associado_nome, a.cpf AS associado_cpf, c.id AS conta_id, c.numero AS conta_numero, ca.id AS cartao_id, ca.numero AS cartao_numero, ca.validade AS cartao_validade, m.id AS movimentacao_id, m.valor AS movimentacao_valor, m.data_movimentacao, m.descricao FROM movimentacao m JOIN cartao ca ON m.cartao_id = ca.id JOIN conta c ON ca.conta_id = c.id JOIN associado a ON ca.associado_id = a.id"
+}
+ 
